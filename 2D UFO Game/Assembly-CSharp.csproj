@@ -5,7 +5,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <ProjectGuid>{D0EDBAFD-58E1-62CB-3EA2-D19F8CDD1F73}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -46,67 +47,64 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\CameraController.cs" />
-     <Compile Include="Assets\Scripts\PlayerController.cs" />
-     <Compile Include="Assets\Scripts\Rotator.cs" />
-     <Compile Include="Assets\TutorialInfo\Scripts\TutorialInfo.cs" />
-     <Compile Include="Assets\_Completed-Assets\Scripts\CompleteCameraController.cs" />
-     <Compile Include="Assets\_Completed-Assets\Scripts\CompletePlayerController.cs" />
-     <Compile Include="Assets\_Completed-Assets\Scripts\CompleteRotator.cs" />
-     <None Include="Assets\TutorialInfo\Fonts\LICENSE.txt" />
-     <None Include="Assets\Builds\UFO Game Build 1.0\UFO Game Build 1_Data\output_log.txt" />
-     <None Include="Assets\Builds\UFO Game Build 1.0\UFO Game Build 1_Data\Mono\etc\mono\mconfig\config.xml" />
- <Reference Include="Assembly-CSharp">
- <HintPath>D:/Git Repositories/Unity Projects/2DUFODan/2D UFO Game/Assets/Builds/UFO Game Build 1.0/UFO Game Build 1_Data/Managed/Assembly-CSharp.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.UI">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Networking">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.PlaymodeTestsRunner">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Analytics">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.HoloLens">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.VR">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Networking">
- <HintPath>D:/Git Repositories/Unity Projects/2DUFODan/2D UFO Game/Assets/Builds/UFO Game Build 1.0/UFO Game Build 1_Data/Managed/UnityEngine.Networking.dll</HintPath>
- </Reference>
- <Reference Include="Assembly-CSharp">
- <HintPath>D:/Git Repositories/Unity Projects/2DUFODan/2D UFO Game/Assets/Builds/UFO Game Build 1.0/UFO Game Build 1_Data/Managed/Assembly-CSharp.dll</HintPath>
- </Reference>
- <Reference Include="Mono.Security">
- <HintPath>D:/Git Repositories/Unity Projects/2DUFODan/2D UFO Game/Assets/Builds/UFO Game Build 1.0/UFO Game Build 1_Data/Managed/Mono.Security.dll</HintPath>
- </Reference>
- <Reference Include="System.Core">
- <HintPath>D:/Git Repositories/Unity Projects/2DUFODan/2D UFO Game/Assets/Builds/UFO Game Build 1.0/UFO Game Build 1_Data/Managed/System.Core.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.PlaymodeTestsRunner">
- <HintPath>D:/Git Repositories/Unity Projects/2DUFODan/2D UFO Game/Assets/Builds/UFO Game Build 1.0/UFO Game Build 1_Data/Managed/UnityEngine.PlaymodeTestsRunner.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.UI">
- <HintPath>D:/Git Repositories/Unity Projects/2DUFODan/2D UFO Game/Assets/Builds/UFO Game Build 1.0/UFO Game Build 1_Data/Managed/UnityEngine.UI.dll</HintPath>
- </Reference>
- <Reference Include="System">
- <HintPath>D:/Git Repositories/Unity Projects/2DUFODan/2D UFO Game/Assets/Builds/UFO Game Build 1.0/UFO Game Build 1_Data/Managed/System.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Analytics">
- <HintPath>D:/Git Repositories/Unity Projects/2DUFODan/2D UFO Game/Assets/Builds/UFO Game Build 1.0/UFO Game Build 1_Data/Managed/UnityEngine.Analytics.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.iOS.Extensions.Xcode">
- <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.iOS.Extensions.Common">
- <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
- </Reference>
+    <Compile Include="Assets\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\Rotator.cs" />
+    <Compile Include="Assets\TutorialInfo\Scripts\TutorialInfo.cs" />
+    <Compile Include="Assets\_Completed-Assets\Scripts\CompleteCameraController.cs" />
+    <Compile Include="Assets\_Completed-Assets\Scripts\CompletePlayerController.cs" />
+    <Compile Include="Assets\_Completed-Assets\Scripts\CompleteRotator.cs" />
+    <None Include="Assets\TutorialInfo\Fonts\LICENSE.txt" />
+    <None Include="Assets\Builds\UFO Game Build 1.0\UFO Game Build 1_Data\output_log.txt" />
+    <None Include="Assets\Builds\UFO Game Build 1.0\UFO Game Build 1_Data\Mono\etc\mono\mconfig\config.xml" />
+    <Reference Include="Assembly-CSharp">
+      <HintPath>D:/Git Repositories/Unity Projects/2DUFODan/2D UFO Game/Assets/Builds/UFO Game Build 1.0/UFO Game Build 1_Data/Managed/Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PlaymodeTestsRunner">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HoloLens">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VR">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>D:/Git Repositories/Unity Projects/2DUFODan/2D UFO Game/Assets/Builds/UFO Game Build 1.0/UFO Game Build 1_Data/Managed/UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Security">
+      <HintPath>D:/Git Repositories/Unity Projects/2DUFODan/2D UFO Game/Assets/Builds/UFO Game Build 1.0/UFO Game Build 1_Data/Managed/Mono.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>D:/Git Repositories/Unity Projects/2DUFODan/2D UFO Game/Assets/Builds/UFO Game Build 1.0/UFO Game Build 1_Data/Managed/System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PlaymodeTestsRunner">
+      <HintPath>D:/Git Repositories/Unity Projects/2DUFODan/2D UFO Game/Assets/Builds/UFO Game Build 1.0/UFO Game Build 1_Data/Managed/UnityEngine.PlaymodeTestsRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>D:/Git Repositories/Unity Projects/2DUFODan/2D UFO Game/Assets/Builds/UFO Game Build 1.0/UFO Game Build 1_Data/Managed/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>D:/Git Repositories/Unity Projects/2DUFODan/2D UFO Game/Assets/Builds/UFO Game Build 1.0/UFO Game Build 1_Data/Managed/System.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>D:/Git Repositories/Unity Projects/2DUFODan/2D UFO Game/Assets/Builds/UFO Game Build 1.0/UFO Game Build 1_Data/Managed/UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
@@ -116,5 +114,4 @@
   <Target Name="AfterBuild">
   </Target>
   -->
-  
 </Project>
